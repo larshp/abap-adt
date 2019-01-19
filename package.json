@@ -1,0 +1,38 @@
+{
+  "name": "abap-adt",
+  "version": "0.1.0",
+  "description": "ABAP",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
+  "scripts": {
+    "precompile": "rm -rf build",
+    "compile": "tsc --pretty",
+    "tslint": "tslint -c tslint.json 'src/**/*.ts' 'test/**/*.ts'",
+    "test": "npm run compile",
+    "posttest": "npm run tslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larshp/abap-adt.git"
+  },
+  "keywords": [
+    "ABAP"
+  ],
+  "author": "Lars Hvam Petersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larshp/abap-adt/issues"
+  },
+  "homepage": "https://github.com/larshp/abap-adt#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "puppeteer": "^1.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "@types/puppeteer": "^1.11.1",
+    "tslint": "^5.12.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.2.4"
+  }
+}
