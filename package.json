@@ -25,14 +25,14 @@
   },
   "homepage": "https://github.com/larshp/abap-adt#readme",
   "dependencies": {
-    "axios": "^0.18.0",
-    "puppeteer": "^1.11.0"
+    "axios": "^0.18.1",
+    "puppeteer": "^1.20.0"
   },
   "devDependencies": {
-    "@types/node": "^10.12.18",
+    "@types/node": "^12.11.1",
     "@types/puppeteer": "^1.11.1",
-    "tslint": "^5.12.1",
+    "tslint": "^5.20.0",
     "tslint-eslint-rules": "^5.4.0",
-    "typescript": "^3.2.4"
+    "typescript": "^3.6.4"
   }
 }
